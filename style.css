@@ -1,0 +1,330 @@
+body {
+    margin: 0;
+    background-color: #202020;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+.background img{
+    position: absolute;
+    width: 100%px;
+    height: fit-content;
+    left: 0px;
+    top: 0px;
+}
+.background .transparency {
+    position: relative;
+    width: 100%;
+    height: 1080px;
+    left: 0px;
+    top: 0px;
+
+    background: rgba(0, 0, 0, 0.4);
+}
+.background .linear {
+    position: absolute;
+    width: 1920px;
+    height: 2900px;
+    left: 0px;
+    top: 0px;
+
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 29.69%);
+}
+.logo img{
+    position: fixed;
+    width: 130px;
+    height: 34.24px;
+    left: 61px;
+    top: 43px;
+
+}
+.upper-text {
+    position: absolute;
+    width: 1075px;
+    height: 70px;
+    left: 422px;
+    top: 111px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 35px;
+    /* or 97% */
+
+
+    color: #FFF8F6;
+}
+.break {
+    position: absolute;
+    width: 1272px;
+    height: 0px;
+    left: 324px;
+    top: 231px;
+
+    border: 1px solid #FFF8F6;
+    opacity: 75%;
+}
+.first-component .title{ 
+    position: absolute;
+    width: 293px;
+    height: 35px;
+    left: 324px;
+    top: 484px;
+
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 35px;
+    /* identical to box height, or 97% */
+
+
+    color: #FFFFFF;
+}
+
+.first-component .paragraph {
+    position: absolute;
+    width: 541px;
+    height: 85px;
+    left: 324px;
+    top: 564px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: justify;
+
+    color: #FFFFFF;
+}
+.first-component #character-pala {
+    position: absolute;
+    width: 679px;
+    height: 655px;
+    left: 917px;
+    top: 292px;
+}
+
+.second-component #first-img {
+    position: absolute;
+    width: 690px;
+    height: 388px;
+    left: 244px;
+    top: 1022.5px;
+    
+    border-radius: 10px;
+}
+.second-component .text-group .title {
+    position: absolute;
+    width: 328px;
+    height: 35px;
+    left: 1013px;
+    top: 1076px;
+
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 35px;
+    /* identical to box height, or 97% */
+
+
+    color: #FFF8F6;
+}
+.second-component .text-group .paragraph {
+    position: absolute;
+    width: 484px;
+    height: 85px;
+    left: 1013px;
+    top: 1156px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: justify;
+
+    color: #FFF8F6;
+}
+.second-component .text-group .service-list {
+    position: absolute;
+    width: 276px;
+    height: 90px;
+    left: 990px;
+    top: 1244px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    /* or 188% */
+
+    text-align: justify;
+
+    color: #FFF8F6;
+}
+.third-component #second-img {
+    position: absolute;
+    width: 690px;
+    height: 388px;
+    left: 967px;
+    top: 1599px;
+
+    border-radius: 10px;
+}
+.third-component .text-group .title {
+    position: absolute;
+    width: 271px;
+    height: 35px;
+    left: 324px;
+    top: 1619px;
+
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 35px;
+    /* identical to box height, or 97% */
+
+
+    color: #FFF8F6;
+}
+.third-component .text-group .paragraph {
+    position: absolute;
+    width: 494px;
+    height: 56px;
+    left: 324px;
+    top: 1699px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: justify;
+
+    color: #FFF8F6;
+}
+.third-component .text-group .service-list {
+    position: absolute;
+    width: 311px;
+    height: 90px;
+    left: 300px;
+    top: 1787px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    /* or 188% */
+
+    text-align: justify;
+
+    color: #FFF8F6;
+}
+#break2 {
+    position: absolute;
+    width: 1272px;
+    height: 0px;
+    left: 324px;
+    top: 2175px;
+}
+.footer #final-img {
+    position: absolute;
+    width: 179px;
+    height: 246px;
+    left: 324px;
+    top: 2430px;
+} 
+.footer .final-title {
+    position: absolute;
+    width: 1272px;
+    height: 35px;
+    left: 324px;
+    top: 2264px;
+
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 35px;
+    /* identical to box height, or 97% */
+
+
+    color: #FFF8F6;
+}
+.footer .text-group .paragraph1 {
+    position: absolute;
+    width: 862px;
+    height: 20px;
+    left: 734px;
+    top: 2413px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+    
+    text-align: justify;
+    
+    color: #FFFFFF;
+}
+.footer .text-group .title {
+    position: absolute;
+    width: 728px;
+    height: 70px;
+    left: 734px;
+    top: 2451px;
+
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 35px;
+    /* or 97% */
+
+
+    color: #FFF8F6;
+}
+.footer .text-group .paragraph2 {
+    position: absolute;
+    width: 862px;
+    height: 20px;
+    left: 734px;
+    top: 2550px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+
+    text-align: justify;
+
+    color: #FFFFFF;
+}
+.footer .text-group .end-text {
+    position: absolute;
+    width: 862px;
+    height: 20px;
+    left: 734px;
+    top: 2639px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+
+    text-align: justify;
+
+    color: #FFFFFF;
+}
